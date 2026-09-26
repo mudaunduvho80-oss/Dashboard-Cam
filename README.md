@@ -66,15 +66,15 @@ Dashboard-Cam/
 
 ### Dashboard
 
-![Dashboard Cam Dashboard](screenshots/Status.png)
+![Dashboard Cam Dashboard](Status.png)
 
 ### Open Palm Detection
 
-![Open Palm Detection](screenshots/Alert.png)
+![Open Palm Detection](Alert.png)
 
 ### Security Alert
 
-![Security Alert](screenshots/Information.png)
+![Security Alert](Information.png)
 
 
 ## Running the Project
