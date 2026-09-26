@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Cam</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <video class="background-video" autoplay muted loop playsinline>
+        <source src="Home.mp4" type="video/mp4">
+    </video>
+
+    <div class="logo-container">
+        <img src="logo.jpeg" alt="Dashboard Cam Logo" class="logo">
+    </div>
+    <button id="enableAlarm">🔔 Enable Alarm</button>
+
+    <h1>Dashboard Cam</h1>
+
+
+    <div class="status">
+
+        <h2>Security Status</h2>
+
+        <p id="status">
+            Connecting to Dashboard Cam...
+        </p>
+
+    </div>
+
+
+    <div class="alert">
+
+        <h2>Latest Alert</h2>
+
+        <img
+            id="alertImage"
+            src=""
+            alt="Alert picture"
+            style="display: none;"
+        >
+
+        <p id="noImage">
+            No alert picture yet.
+        </p>
+
+    </div>
+
+
+    <div class="information">
+
+        <h2>Alert Information</h2>
+
+        <p id="alertTime">
+            Time: Waiting...
+        </p>
+
+        <p id="location">
+            Location: Waiting...
+        </p>
+
+        <a
+            id="mapsLink"
+            href="#"
+            target="_blank"
+            style="display: none;"
+        >
+            Open Location in Google Maps
+        </a>
+
+    </div>
+
+    <audio id="alarmSound" src="/alarm.mp3" preload="auto"></audio>
+
+
+    <!-- This connects the website to our JavaScript -->
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
